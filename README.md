@@ -1,2 +1,2 @@
-# counseler-web
+# counselor-web
 counselor web application

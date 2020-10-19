@@ -1,0 +1,24 @@
+{
+  "name": "counselor-web",
+  "version": "1.0.0",
+  "description": "counselor web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungw0n/counselor-web.git"
+  },
+  "author": "Tensorust",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seungw0n/counselor-web/issues"
+  },
+  "homepage": "https://github.com/seungw0n/counselor-web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "path": "^0.12.7"
+  }
+}
