@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
+
 import './App.css';
+import {BrowserRouter as Router } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
+import Banner from './components/banner/banner';
+import AIConsulting from './components/AIConsulting/AIConsulting'
+import Footer from './components/Footer/Footer'
+// import CssBaseline from '@material-ui/core/CssBaseline';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Fragment>
+        <NavBar/>
+        <Banner/>
+        <AIConsulting/>
+        <Footer/>
+      </Fragment>
+    </Router>
   );
 }
 
