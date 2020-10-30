@@ -17,6 +17,7 @@ function App() {
         <NavBar/>
         <About/>
         <Banner/>
+        <About/>
         <AIConsulting/>
         <Footer/>
       </Fragment>

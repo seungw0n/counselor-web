@@ -2,25 +2,25 @@
 import React, {Component} from 'react';
 import '../../../node_modules/materialize-css/dist/css/materialize.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-
+import './NavBar.css';
 
 
 
 const  SmoothScroll = () => {
     return(
-        <section>
-            <div className="navbar-fixed">
+        <section >
+            <div className="navbar-fixed transparent">
                 <nav className="grey darken-3">
                     <div className="container">
                         <div className="nav-wrapper">
                             <AnchorLink href="!#" className="brand-logo">COUNSEOLOR</AnchorLink>
                             <AnchorLink href="!#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></AnchorLink>
                             <ul className="right hide-on-med-and-down">
-                                <li><AnchorLink href="/home">HOME</AnchorLink></li>
+                                <li><AnchorLink href="/home">About</AnchorLink></li>
                                 <li><AnchorLink href="/AIConsulting">AI Consulting</AnchorLink></li>
-                                <li><AnchorLink href="/Blog">Blog</AnchorLink></li>
-                                <li><AnchorLink href="/Reference">Customer</AnchorLink></li>
-                                <li><AnchorLink href="/Contact">About us</AnchorLink></li>
+                                <li><AnchorLink href="/Blog">Service</AnchorLink></li>
+                                <li><AnchorLink href="/Reference">Client</AnchorLink></li>
+                                <li><AnchorLink href="/Contact">Contact</AnchorLink></li>
                                 <li><AnchorLink className="waves-effect waves-light btn-large" href="/login">Login</AnchorLink></li>
 
                             </ul>
