@@ -27,12 +27,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.min.js"> </script>
     <script>
+      //Navbar.js -Top nav bar
       document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, options);
       });
       $(document).ready(function(){
       $('.sidenav').sidenav();
+      });
+
+
+      //banner.js -Carousel
+      $(document).ready(function() {
+        //Init Slider
+        $('.slider').slider({
+          indicators: false,
+          height: 800,
+          transition: 500,
+          interval: 5000
+        });
       });
     </script>
   </body>
